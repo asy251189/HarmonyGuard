@@ -1,0 +1,105 @@
+# ========================
+# Python bytecode & cache
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================
+# Virtual environments
+# ========================
+.venv/
+venv/
+ENV/
+env/
+.venv*/
+
+# ========================
+# Distribution / Packaging
+# ========================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================
+# Jupyter notebooks
+# ========================
+.ipynb_checkpoints
+
+# ========================
+# Logs & temp files
+# ========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ========================
+# System / IDE files
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ========================
+# Environment variables & secrets
+# ========================
+.env
+.env.*
+*.secret
+*.token
+credentials.json
+
+# ========================
+# Model / data files
+# (mount as volume at runtime instead)
+# ========================
+models/
+*.h5
+*.pkl
+*.pt
+*.onnx
+*.joblib
+data/
+datasets/
+.cache/
+checkpoints/
+
+# ========================
+# Tests & coverage
+# ========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+nosetests.xml
+
+# ========================
+# Compiled extensions
+# ========================
+*.so
+*.dll
+*.dylib
+
+# ========================
+# Docker & Git
+# ========================
+docker-compose.override.yml
+.git/
+.gitignore
